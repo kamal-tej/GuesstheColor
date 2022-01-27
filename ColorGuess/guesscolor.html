@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guess the Color</title>
+    <link rel="stylesheet" href="guesscolor.css">
+    <script src="guesscolor.js"></script>
+  </head>
+  <body onload="generate()" id="body">
+    <h1 id="heading">Guess the COLOR <span id="rgb-values-display"> <button id="start" onclick="easy()">Start Game</button> </span> <h1>
+    <div id="menu-bar">
+
+      &nbsp&nbsp&nbsp&nbsp
+      <button id="reset" onclick="colorChange()"> New Colors </button>
+      <span id="message"></span>
+      <button class="mode" onclick="easy()">Easy</button>
+      <button class="mode selected" onclick="hard()">Hard</button>
+      &nbsp&nbsp&nbsp&nbsp
+      <!--<span id="attempts">attempts:0<span>-->
+    </div>
+    <div id="container">
+
+    </div>
+  </body>
+</html>

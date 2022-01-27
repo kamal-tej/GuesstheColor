@@ -1,0 +1,61 @@
+#image{
+  display: inline-block;
+}
+#instructions{
+  display: inline-block;
+  background-color: light-red;
+}
+#heading{
+  color: black;
+  background-color: #ffc107;
+  margin: 0px;
+}
+#rgb-values-display{
+  display: block;
+  margin: 0;
+}
+#menu-bar{
+  background: #24B4AB;
+  text-align: center;
+  margin:0;
+  padding-bottom: 5px;
+}
+#attempts{
+  font-size: 20px;
+}
+.square{
+  width: 10%;
+  padding-bottom: 10%;
+  border-radius: 20%;
+  display: inline-block;
+  margin: 1%;
+}
+button{
+  background-color:#24B4AB;
+  border:none;
+  font-size: 0.5em;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #ffc107;
+  color: #24B4AB;
+}
+body{
+  background-color: black;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  margin: 0;
+}
+#start{
+  border-color: coral;
+  border-style: solid;
+  background-color:#ffc107;
+}
+#first{
+  background-color: white;
+}
+#heading1{
+  background-color: white;
+}
